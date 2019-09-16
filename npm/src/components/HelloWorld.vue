@@ -33,6 +33,7 @@
 <script>
 import verify5 from 'verify5';
 
+
 export default {
   name: 'HelloWorld',
   props: {
