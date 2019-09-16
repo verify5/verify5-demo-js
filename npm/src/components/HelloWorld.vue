@@ -40,8 +40,8 @@ export default {
   },
   created:function(){
     let v5=new verify5({
-        host:"rm0w8a6ckkco.verify5.com",//从后台getToken接口获得
-        token:"a86088d2a3d646828b6f0de2932aba1a",//从后台getToken接口获得
+        host:"freetvks2vi2.verify5.com",//从后台getToken接口获得
+        token:"(Token)",//从后台getToken接口获得
         trustLevel:5
     });
     v5.on("CANCEL",function(){
