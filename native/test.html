@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script src="https://s.verify5.com/assets/latest/v5.js"></script>
+        <meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0" name="viewport"/>
+    </head>
+    <body>
+    	<div>Data API</div>
+        <div v5-config='{name:"v5",ssl:true,host:"freetvks2vi2.verify5.com",token:"(Token)"}'></div>
+    	<div>JS API</div>
+        <button onclick="jsverify()">点此验证</button>
+        <script>
+        	function jsverify(){
+                var v5=new com.strato.Verify5({
+                    ssl:true,
+                    host:"freetvks2vi2.verify5.com",
+                    token:"(Token)",
+                    trustLevel:5
+                });
+                v5.verify(function(result){
+                    console.log(result);
+                });
+        	}
+        </script>
+    </body>
+</html>
