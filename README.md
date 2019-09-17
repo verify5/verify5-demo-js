@@ -1,4 +1,4 @@
-# verify5-demo
+# verify5-demo-js
 * native
    * 原生JS示例
 
